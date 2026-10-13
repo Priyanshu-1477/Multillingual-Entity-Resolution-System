@@ -1,9 +1,0 @@
-# Production Dependencies for Multilingual Preprocessing Pipeline
-# All packages are free open-source with permissive licenses (ISC, Apache-2.0, BSD, MIT, MPL-2.0)
-# No external network calls, no cloud APIs, purely offline operation.
-
-anyascii>=0.3.3          # ISC License: High-performance Unicode to Latin transliterator covering 100+ scripts
-regex>=2024.0.0          # Apache-2.0: Full Unicode script and category regex pattern matching
-psutil>=5.9.0            # BSD-3-Clause: Memory usage tracking and resource bounds enforcement
-tqdm>=4.66.0             # MPL-2.0 / MIT: Fast streaming progress monitor
-pytest>=7.0.0            # MIT License: Unit and integration testing framework

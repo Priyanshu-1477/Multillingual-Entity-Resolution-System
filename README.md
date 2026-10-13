@@ -60,39 +60,23 @@ flowchart TD
 .
 ├── data/                       # Challenge datasets (train & test TSVs, gitignored)
 ├── Dataset -> data             # Backwards-compatible symlink for legacy paths
-├── src/                        # Core production modules
+├── src/                        # Core production modules (direct dependencies of run_pipeline.py)
+│   ├── __init__.py
 │   ├── entity_representations.py   # Normalization, token parsing, mmap structures
 │   ├── data_driven_blocker.py      # Core-brand extraction, Indian phonetics, TF-IDF
-│   ├── address_aware_features.py   # 40-D feature extractor
-│   ├── hard_negative_miner.py      # Hard negative mining pipeline
-│   ├── evidence_scorer.py          # Evidence aggregation
-│   ├── bayesian_filter.py          # Uncertainty calibrator & singleton veto
-│   ├── multi_path_funnel.py        # Candidate blocking funnel
-│   ├── evaluation.py               # Macro F0.5 metric evaluation
+│   ├── address_aware_features.py   # 40-D address-aware feature extractor
+│   ├── evidence_scorer.py          # Evidence aggregation and scoring
+│   ├── multi_path_funnel.py        # Candidate blocking funnel & stopwords
 │   └── validate_submission.py      # Official submission validator
-├── preprocessing/              # Multilingual preprocessing suite & unit tests
-│   ├── run_preprocessing.py        # Preprocessing CLI entrypoint
-│   └── multilingual_preprocessing/ # Normalizers, transliterators, and test suite
-├── scripts/                    # Training, benchmarking & inference scripts
-│   ├── run_pipeline.py             # End-to-end production runner
-│   ├── test_enhanced_blocker_v4.py # SuperBlockerV4 candidate recall benchmark
-│   ├── optimize_country_thresholds.py # Country-specific threshold search
-│   ├── train_v20_kfold_cv.py       # Stratified K-fold cross-validation runner
-│   └── train_v19_real_execution.py # Semantic & dense embedding pipeline
+├── scripts/                    # Production runners
+│   └── run_pipeline.py         # Main end-to-end production pipeline runner
 ├── models/                     # Trained model checkpoints
-│   ├── EXP_006_SUPER_V4/           # SOTA Super-Booster (model.txt, xgb_model.json, meta_learner.pkl)
-│   └── production/                 # Production deployed model.txt
-├── experiments/                # Experiment tracking logs & validation splits
-│   ├── experiments_log.csv         # Benchmark registry (EXP_001 through EXP_006)
-│   ├── val_ground_truth.tsv        # Validation ground truth
-│   └── val_s1_entities.tsv         # Validation queries
+│   └── production/
+│       └── model.txt           # Production deployed LightGBM model (300 trees)
 ├── submissions/                # Generated competition outputs
-│   ├── matching_results.tsv        # Final entity matches (110 MB)
-│   ├── candidate_pairs.tsv         # Final candidate pairs (1.92 GB)
-│   └── SUBMITTED/                  # Official submission TSVs
-├── docs/                       # Technical reports & documentation
-│   ├── Solution_Documentation.md   # Full methodology & system writeup
-│   └── download_template.md        # Dataset download guide
+│   ├── matching_results.tsv    # Final entity matches (110 MB)
+│   ├── candidate_pairs.tsv     # Final candidate pairs (1.92 GB)
+│   └── SUBMITTED/              # Official submission TSVs
 ├── requirements.txt            # Pinned environment dependencies
 └── .gitignore                  # Git rules protecting against multi-GB datasets
 ```
