@@ -1,0 +1,32 @@
+{
+  "total_validation_s1": 5000,
+  "total_true_targets": 17144,
+  "total_true_pairs": 17144,
+  "exact_name_pct": 23.6,
+  "exact_addr_pct": 8.91,
+  "exact_both_pct": 1.61,
+  "same_name_diff_addr_pct": 20.75,
+  "same_name_missing_addr_pct": 1.24,
+  "diff_name_same_addr_pct": 7.3,
+  "diff_name_diff_addr_pct": 69.1,
+  "low_name_high_addr_pct": 4.29,
+  "name_sim_mean": 84.82,
+  "addr_sim_mean": 79.48,
+  "multi_match_breakdown": {
+    "3": 1184,
+    "1": 297,
+    "4": 1129,
+    "2": 890,
+    "5": 704,
+    "0": 259,
+    "7": 146,
+    "6": 342,
+    "10": 2,
+    "8": 38,
+    "9": 9
+  },
+  "missing_fields": {
+    "s1_missing_addr_pct": 0.0,
+    "target_missing_addr_pct": 4.41
+  }
+}

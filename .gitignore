@@ -1,0 +1,94 @@
+# ==========================================
+# Byte-compiled / optimized / DLL files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# C and OS artifacts
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==========================================
+# Virtual Environments & Packaging
+# ==========================================
+venv/
+.venv/
+env/
+.env
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# IDE & Editor files
+# ==========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.ipynb_checkpoints/
+
+# ==========================================
+# Large ML Challenge Data Files (> 50 MB)
+# (Do NOT commit multi-GB raw TSVs or full candidate pairs to Git)
+# ==========================================
+data/
+Dataset
+data/raw/
+data/*.tsv
+Dataset/*.tsv
+*.tsv
+!experiments/val_*.tsv
+!experiments/**/hard_negatives.tsv
+
+# ==========================================
+# Large Submission & Candidate Outputs (> 100 MB)
+# ==========================================
+submissions/candidate_pairs*.tsv
+submissions/matching_results*.tsv
+submissions/SUBMITTED/*.tsv
+output/
+outputs/
+*.zip
+*.tar.gz
+*.tar
+
+# ==========================================
+# Large Model Weights (> 100 MB)
+# ==========================================
+*.bin
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.pkl
+!models/**/meta_learner.pkl
+
+# ==========================================
+# Preprocessing checkpoints & temporary caches
+# ==========================================
+preprocessing_state/
+temporary/
+preprocessed_output/

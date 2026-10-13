@@ -1,0 +1,12 @@
+{
+  "total_validation_entities": 5000,
+  "india_count": 2500,
+  "us_count": 2500,
+  "singleton_count": 259,
+  "singleton_pct": 5.18,
+  "total_ground_truth_matches": 17144,
+  "avg_matches_per_entity": 3.429,
+  "seed": 42,
+  "val_s1_path": "/Users/harshitpranjal/ML_AMAZON/experiments/val_s1_entities.tsv",
+  "val_gt_path": "/Users/harshitpranjal/ML_AMAZON/experiments/val_ground_truth.tsv"
+}

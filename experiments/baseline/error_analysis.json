@@ -1,0 +1,11 @@
+{
+  "total_false_negatives": 10515,
+  "true_match_never_generated": 9650,
+  "true_match_never_generated_pct": 91.77,
+  "dropped_by_prefilter": 53,
+  "dropped_by_prefilter_pct": 0.5,
+  "rejected_by_model_or_threshold": 812,
+  "rejected_by_model_pct": 7.72,
+  "total_false_positives": 13363,
+  "singleton_accuracy": 0.0
+}

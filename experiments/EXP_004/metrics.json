@@ -1,0 +1,1227 @@
+{
+  "macro_f05": 0.6588,
+  "macro_precision": 0.7286,
+  "macro_recall": 0.5607,
+  "candidate_recall": 0.6224,
+  "total_tp": 9522,
+  "total_fp": 2550,
+  "total_fn": 7622,
+  "false_merges": 2550,
+  "missed_matches": 7622,
+  "total_entities": 5000,
+  "total_singletons": 259,
+  "singleton_correct": 154,
+  "singleton_accuracy": 0.5946,
+  "country_metrics": {
+    "india": {
+      "macro_f05": 0.6231,
+      "macro_precision": 0.6908,
+      "macro_recall": 0.5297,
+      "count": 2500
+    },
+    "us": {
+      "macro_f05": 0.6945,
+      "macro_precision": 0.7663,
+      "macro_recall": 0.5916,
+      "count": 2500
+    }
+  },
+  "optimal_tau_india": 0.7,
+  "optimal_tau_us": 0.7,
+  "grid_search": [
+    {
+      "tau_india": 0.2,
+      "tau_us": 0.2,
+      "macro_f05": 0.3723,
+      "macro_precision": 0.3545,
+      "macro_recall": 0.5869,
+      "singleton_acc": 0.0232
+    },
+    {
+      "tau_india": 0.2,
+      "tau_us": 0.25,
+      "macro_f05": 0.3732,
+      "macro_precision": 0.356,
+      "macro_recall": 0.5831,
+      "singleton_acc": 0.0232
+    },
+    {
+      "tau_india": 0.2,
+      "tau_us": 0.3,
+      "macro_f05": 0.3611,
+      "macro_precision": 0.3458,
+      "macro_recall": 0.5606,
+      "singleton_acc": 0.0232
+    },
+    {
+      "tau_india": 0.2,
+      "tau_us": 0.35,
+      "macro_f05": 0.4648,
+      "macro_precision": 0.4743,
+      "macro_recall": 0.569,
+      "singleton_acc": 0.1853
+    },
+    {
+      "tau_india": 0.2,
+      "tau_us": 0.4,
+      "macro_f05": 0.4758,
+      "macro_precision": 0.4883,
+      "macro_recall": 0.5704,
+      "singleton_acc": 0.2124
+    },
+    {
+      "tau_india": 0.2,
+      "tau_us": 0.45,
+      "macro_f05": 0.4824,
+      "macro_precision": 0.4968,
+      "macro_recall": 0.5712,
+      "singleton_acc": 0.2278
+    },
+    {
+      "tau_india": 0.2,
+      "tau_us": 0.5,
+      "macro_f05": 0.4878,
+      "macro_precision": 0.5043,
+      "macro_recall": 0.5717,
+      "singleton_acc": 0.2394
+    },
+    {
+      "tau_india": 0.2,
+      "tau_us": 0.55,
+      "macro_f05": 0.4934,
+      "macro_precision": 0.5117,
+      "macro_recall": 0.5726,
+      "singleton_acc": 0.2587
+    },
+    {
+      "tau_india": 0.2,
+      "tau_us": 0.6,
+      "macro_f05": 0.4976,
+      "macro_precision": 0.5172,
+      "macro_recall": 0.5733,
+      "singleton_acc": 0.278
+    },
+    {
+      "tau_india": 0.2,
+      "tau_us": 0.65,
+      "macro_f05": 0.5039,
+      "macro_precision": 0.5262,
+      "macro_recall": 0.5733,
+      "singleton_acc": 0.2896
+    },
+    {
+      "tau_india": 0.2,
+      "tau_us": 0.7,
+      "macro_f05": 0.5148,
+      "macro_precision": 0.5422,
+      "macro_recall": 0.574,
+      "singleton_acc": 0.3282
+    },
+    {
+      "tau_india": 0.2,
+      "tau_us": 0.75,
+      "macro_f05": 0.5144,
+      "macro_precision": 0.5477,
+      "macro_recall": 0.5624,
+      "singleton_acc": 0.3591
+    },
+    {
+      "tau_india": 0.25,
+      "tau_us": 0.2,
+      "macro_f05": 0.3735,
+      "macro_precision": 0.3562,
+      "macro_recall": 0.5822,
+      "singleton_acc": 0.0232
+    },
+    {
+      "tau_india": 0.25,
+      "tau_us": 0.25,
+      "macro_f05": 0.3744,
+      "macro_precision": 0.3578,
+      "macro_recall": 0.5783,
+      "singleton_acc": 0.0232
+    },
+    {
+      "tau_india": 0.25,
+      "tau_us": 0.3,
+      "macro_f05": 0.3623,
+      "macro_precision": 0.3476,
+      "macro_recall": 0.5559,
+      "singleton_acc": 0.0232
+    },
+    {
+      "tau_india": 0.25,
+      "tau_us": 0.35,
+      "macro_f05": 0.466,
+      "macro_precision": 0.4761,
+      "macro_recall": 0.5643,
+      "singleton_acc": 0.1853
+    },
+    {
+      "tau_india": 0.25,
+      "tau_us": 0.4,
+      "macro_f05": 0.477,
+      "macro_precision": 0.4901,
+      "macro_recall": 0.5657,
+      "singleton_acc": 0.2124
+    },
+    {
+      "tau_india": 0.25,
+      "tau_us": 0.45,
+      "macro_f05": 0.4836,
+      "macro_precision": 0.4986,
+      "macro_recall": 0.5665,
+      "singleton_acc": 0.2278
+    },
+    {
+      "tau_india": 0.25,
+      "tau_us": 0.5,
+      "macro_f05": 0.489,
+      "macro_precision": 0.5061,
+      "macro_recall": 0.567,
+      "singleton_acc": 0.2394
+    },
+    {
+      "tau_india": 0.25,
+      "tau_us": 0.55,
+      "macro_f05": 0.4945,
+      "macro_precision": 0.5135,
+      "macro_recall": 0.5678,
+      "singleton_acc": 0.2587
+    },
+    {
+      "tau_india": 0.25,
+      "tau_us": 0.6,
+      "macro_f05": 0.4987,
+      "macro_precision": 0.519,
+      "macro_recall": 0.5686,
+      "singleton_acc": 0.278
+    },
+    {
+      "tau_india": 0.25,
+      "tau_us": 0.65,
+      "macro_f05": 0.5051,
+      "macro_precision": 0.5279,
+      "macro_recall": 0.5686,
+      "singleton_acc": 0.2896
+    },
+    {
+      "tau_india": 0.25,
+      "tau_us": 0.7,
+      "macro_f05": 0.5159,
+      "macro_precision": 0.544,
+      "macro_recall": 0.5693,
+      "singleton_acc": 0.3282
+    },
+    {
+      "tau_india": 0.25,
+      "tau_us": 0.75,
+      "macro_f05": 0.5155,
+      "macro_precision": 0.5494,
+      "macro_recall": 0.5577,
+      "singleton_acc": 0.3591
+    },
+    {
+      "tau_india": 0.3,
+      "tau_us": 0.2,
+      "macro_f05": 0.3653,
+      "macro_precision": 0.3497,
+      "macro_recall": 0.564,
+      "singleton_acc": 0.0232
+    },
+    {
+      "tau_india": 0.3,
+      "tau_us": 0.25,
+      "macro_f05": 0.3663,
+      "macro_precision": 0.3513,
+      "macro_recall": 0.5601,
+      "singleton_acc": 0.0232
+    },
+    {
+      "tau_india": 0.3,
+      "tau_us": 0.3,
+      "macro_f05": 0.3542,
+      "macro_precision": 0.341,
+      "macro_recall": 0.5377,
+      "singleton_acc": 0.0232
+    },
+    {
+      "tau_india": 0.3,
+      "tau_us": 0.35,
+      "macro_f05": 0.4578,
+      "macro_precision": 0.4696,
+      "macro_recall": 0.5461,
+      "singleton_acc": 0.1853
+    },
+    {
+      "tau_india": 0.3,
+      "tau_us": 0.4,
+      "macro_f05": 0.4688,
+      "macro_precision": 0.4836,
+      "macro_recall": 0.5475,
+      "singleton_acc": 0.2124
+    },
+    {
+      "tau_india": 0.3,
+      "tau_us": 0.45,
+      "macro_f05": 0.4754,
+      "macro_precision": 0.4921,
+      "macro_recall": 0.5483,
+      "singleton_acc": 0.2278
+    },
+    {
+      "tau_india": 0.3,
+      "tau_us": 0.5,
+      "macro_f05": 0.4808,
+      "macro_precision": 0.4996,
+      "macro_recall": 0.5488,
+      "singleton_acc": 0.2394
+    },
+    {
+      "tau_india": 0.3,
+      "tau_us": 0.55,
+      "macro_f05": 0.4864,
+      "macro_precision": 0.5069,
+      "macro_recall": 0.5496,
+      "singleton_acc": 0.2587
+    },
+    {
+      "tau_india": 0.3,
+      "tau_us": 0.6,
+      "macro_f05": 0.4906,
+      "macro_precision": 0.5125,
+      "macro_recall": 0.5504,
+      "singleton_acc": 0.278
+    },
+    {
+      "tau_india": 0.3,
+      "tau_us": 0.65,
+      "macro_f05": 0.4969,
+      "macro_precision": 0.5214,
+      "macro_recall": 0.5504,
+      "singleton_acc": 0.2896
+    },
+    {
+      "tau_india": 0.3,
+      "tau_us": 0.7,
+      "macro_f05": 0.5078,
+      "macro_precision": 0.5375,
+      "macro_recall": 0.5511,
+      "singleton_acc": 0.3282
+    },
+    {
+      "tau_india": 0.3,
+      "tau_us": 0.75,
+      "macro_f05": 0.5074,
+      "macro_precision": 0.5429,
+      "macro_recall": 0.5395,
+      "singleton_acc": 0.3591
+    },
+    {
+      "tau_india": 0.35,
+      "tau_us": 0.2,
+      "macro_f05": 0.4209,
+      "macro_precision": 0.4149,
+      "macro_recall": 0.566,
+      "singleton_acc": 0.0618
+    },
+    {
+      "tau_india": 0.35,
+      "tau_us": 0.25,
+      "macro_f05": 0.4219,
+      "macro_precision": 0.4165,
+      "macro_recall": 0.5621,
+      "singleton_acc": 0.0618
+    },
+    {
+      "tau_india": 0.35,
+      "tau_us": 0.3,
+      "macro_f05": 0.4098,
+      "macro_precision": 0.4062,
+      "macro_recall": 0.5397,
+      "singleton_acc": 0.0618
+    },
+    {
+      "tau_india": 0.35,
+      "tau_us": 0.35,
+      "macro_f05": 0.5135,
+      "macro_precision": 0.5347,
+      "macro_recall": 0.5481,
+      "singleton_acc": 0.2239
+    },
+    {
+      "tau_india": 0.35,
+      "tau_us": 0.4,
+      "macro_f05": 0.5245,
+      "macro_precision": 0.5487,
+      "macro_recall": 0.5495,
+      "singleton_acc": 0.251
+    },
+    {
+      "tau_india": 0.35,
+      "tau_us": 0.45,
+      "macro_f05": 0.531,
+      "macro_precision": 0.5572,
+      "macro_recall": 0.5503,
+      "singleton_acc": 0.2664
+    },
+    {
+      "tau_india": 0.35,
+      "tau_us": 0.5,
+      "macro_f05": 0.5365,
+      "macro_precision": 0.5647,
+      "macro_recall": 0.5508,
+      "singleton_acc": 0.278
+    },
+    {
+      "tau_india": 0.35,
+      "tau_us": 0.55,
+      "macro_f05": 0.542,
+      "macro_precision": 0.5721,
+      "macro_recall": 0.5516,
+      "singleton_acc": 0.2973
+    },
+    {
+      "tau_india": 0.35,
+      "tau_us": 0.6,
+      "macro_f05": 0.5462,
+      "macro_precision": 0.5776,
+      "macro_recall": 0.5523,
+      "singleton_acc": 0.3166
+    },
+    {
+      "tau_india": 0.35,
+      "tau_us": 0.65,
+      "macro_f05": 0.5525,
+      "macro_precision": 0.5866,
+      "macro_recall": 0.5524,
+      "singleton_acc": 0.3282
+    },
+    {
+      "tau_india": 0.35,
+      "tau_us": 0.7,
+      "macro_f05": 0.5634,
+      "macro_precision": 0.6026,
+      "macro_recall": 0.553,
+      "singleton_acc": 0.3668
+    },
+    {
+      "tau_india": 0.35,
+      "tau_us": 0.75,
+      "macro_f05": 0.563,
+      "macro_precision": 0.6081,
+      "macro_recall": 0.5415,
+      "singleton_acc": 0.3977
+    },
+    {
+      "tau_india": 0.4,
+      "tau_us": 0.2,
+      "macro_f05": 0.4526,
+      "macro_precision": 0.4549,
+      "macro_recall": 0.5683,
+      "singleton_acc": 0.1081
+    },
+    {
+      "tau_india": 0.4,
+      "tau_us": 0.25,
+      "macro_f05": 0.4536,
+      "macro_precision": 0.4565,
+      "macro_recall": 0.5644,
+      "singleton_acc": 0.1081
+    },
+    {
+      "tau_india": 0.4,
+      "tau_us": 0.3,
+      "macro_f05": 0.4415,
+      "macro_precision": 0.4462,
+      "macro_recall": 0.542,
+      "singleton_acc": 0.1081
+    },
+    {
+      "tau_india": 0.4,
+      "tau_us": 0.35,
+      "macro_f05": 0.5451,
+      "macro_precision": 0.5748,
+      "macro_recall": 0.5504,
+      "singleton_acc": 0.2703
+    },
+    {
+      "tau_india": 0.4,
+      "tau_us": 0.4,
+      "macro_f05": 0.5561,
+      "macro_precision": 0.5888,
+      "macro_recall": 0.5518,
+      "singleton_acc": 0.2973
+    },
+    {
+      "tau_india": 0.4,
+      "tau_us": 0.45,
+      "macro_f05": 0.5627,
+      "macro_precision": 0.5973,
+      "macro_recall": 0.5526,
+      "singleton_acc": 0.3127
+    },
+    {
+      "tau_india": 0.4,
+      "tau_us": 0.5,
+      "macro_f05": 0.5681,
+      "macro_precision": 0.6048,
+      "macro_recall": 0.5531,
+      "singleton_acc": 0.3243
+    },
+    {
+      "tau_india": 0.4,
+      "tau_us": 0.55,
+      "macro_f05": 0.5737,
+      "macro_precision": 0.6121,
+      "macro_recall": 0.5539,
+      "singleton_acc": 0.3436
+    },
+    {
+      "tau_india": 0.4,
+      "tau_us": 0.6,
+      "macro_f05": 0.5779,
+      "macro_precision": 0.6177,
+      "macro_recall": 0.5546,
+      "singleton_acc": 0.3629
+    },
+    {
+      "tau_india": 0.4,
+      "tau_us": 0.65,
+      "macro_f05": 0.5842,
+      "macro_precision": 0.6266,
+      "macro_recall": 0.5547,
+      "singleton_acc": 0.3745
+    },
+    {
+      "tau_india": 0.4,
+      "tau_us": 0.7,
+      "macro_f05": 0.5951,
+      "macro_precision": 0.6427,
+      "macro_recall": 0.5553,
+      "singleton_acc": 0.4131
+    },
+    {
+      "tau_india": 0.4,
+      "tau_us": 0.75,
+      "macro_f05": 0.5947,
+      "macro_precision": 0.6481,
+      "macro_recall": 0.5438,
+      "singleton_acc": 0.444
+    },
+    {
+      "tau_india": 0.45,
+      "tau_us": 0.2,
+      "macro_f05": 0.4673,
+      "macro_precision": 0.4741,
+      "macro_recall": 0.5699,
+      "singleton_acc": 0.139
+    },
+    {
+      "tau_india": 0.45,
+      "tau_us": 0.25,
+      "macro_f05": 0.4683,
+      "macro_precision": 0.4757,
+      "macro_recall": 0.566,
+      "singleton_acc": 0.139
+    },
+    {
+      "tau_india": 0.45,
+      "tau_us": 0.3,
+      "macro_f05": 0.4562,
+      "macro_precision": 0.4654,
+      "macro_recall": 0.5435,
+      "singleton_acc": 0.139
+    },
+    {
+      "tau_india": 0.45,
+      "tau_us": 0.35,
+      "macro_f05": 0.5599,
+      "macro_precision": 0.5939,
+      "macro_recall": 0.5519,
+      "singleton_acc": 0.3012
+    },
+    {
+      "tau_india": 0.45,
+      "tau_us": 0.4,
+      "macro_f05": 0.5708,
+      "macro_precision": 0.6079,
+      "macro_recall": 0.5533,
+      "singleton_acc": 0.3282
+    },
+    {
+      "tau_india": 0.45,
+      "tau_us": 0.45,
+      "macro_f05": 0.5774,
+      "macro_precision": 0.6164,
+      "macro_recall": 0.5541,
+      "singleton_acc": 0.3436
+    },
+    {
+      "tau_india": 0.45,
+      "tau_us": 0.5,
+      "macro_f05": 0.5829,
+      "macro_precision": 0.6239,
+      "macro_recall": 0.5546,
+      "singleton_acc": 0.3552
+    },
+    {
+      "tau_india": 0.45,
+      "tau_us": 0.55,
+      "macro_f05": 0.5884,
+      "macro_precision": 0.6313,
+      "macro_recall": 0.5555,
+      "singleton_acc": 0.3745
+    },
+    {
+      "tau_india": 0.45,
+      "tau_us": 0.6,
+      "macro_f05": 0.5926,
+      "macro_precision": 0.6368,
+      "macro_recall": 0.5562,
+      "singleton_acc": 0.3938
+    },
+    {
+      "tau_india": 0.45,
+      "tau_us": 0.65,
+      "macro_f05": 0.5989,
+      "macro_precision": 0.6458,
+      "macro_recall": 0.5563,
+      "singleton_acc": 0.4054
+    },
+    {
+      "tau_india": 0.45,
+      "tau_us": 0.7,
+      "macro_f05": 0.6098,
+      "macro_precision": 0.6618,
+      "macro_recall": 0.5569,
+      "singleton_acc": 0.444
+    },
+    {
+      "tau_india": 0.45,
+      "tau_us": 0.75,
+      "macro_f05": 0.6094,
+      "macro_precision": 0.6673,
+      "macro_recall": 0.5453,
+      "singleton_acc": 0.4749
+    },
+    {
+      "tau_india": 0.5,
+      "tau_us": 0.2,
+      "macro_f05": 0.4775,
+      "macro_precision": 0.4875,
+      "macro_recall": 0.5712,
+      "singleton_acc": 0.166
+    },
+    {
+      "tau_india": 0.5,
+      "tau_us": 0.25,
+      "macro_f05": 0.4784,
+      "macro_precision": 0.489,
+      "macro_recall": 0.5673,
+      "singleton_acc": 0.166
+    },
+    {
+      "tau_india": 0.5,
+      "tau_us": 0.3,
+      "macro_f05": 0.4663,
+      "macro_precision": 0.4788,
+      "macro_recall": 0.5448,
+      "singleton_acc": 0.166
+    },
+    {
+      "tau_india": 0.5,
+      "tau_us": 0.35,
+      "macro_f05": 0.57,
+      "macro_precision": 0.6073,
+      "macro_recall": 0.5532,
+      "singleton_acc": 0.3282
+    },
+    {
+      "tau_india": 0.5,
+      "tau_us": 0.4,
+      "macro_f05": 0.581,
+      "macro_precision": 0.6213,
+      "macro_recall": 0.5546,
+      "singleton_acc": 0.3552
+    },
+    {
+      "tau_india": 0.5,
+      "tau_us": 0.45,
+      "macro_f05": 0.5876,
+      "macro_precision": 0.6298,
+      "macro_recall": 0.5554,
+      "singleton_acc": 0.3707
+    },
+    {
+      "tau_india": 0.5,
+      "tau_us": 0.5,
+      "macro_f05": 0.593,
+      "macro_precision": 0.6373,
+      "macro_recall": 0.5559,
+      "singleton_acc": 0.3822
+    },
+    {
+      "tau_india": 0.5,
+      "tau_us": 0.55,
+      "macro_f05": 0.5985,
+      "macro_precision": 0.6447,
+      "macro_recall": 0.5568,
+      "singleton_acc": 0.4015
+    },
+    {
+      "tau_india": 0.5,
+      "tau_us": 0.6,
+      "macro_f05": 0.6027,
+      "macro_precision": 0.6502,
+      "macro_recall": 0.5575,
+      "singleton_acc": 0.4208
+    },
+    {
+      "tau_india": 0.5,
+      "tau_us": 0.65,
+      "macro_f05": 0.6091,
+      "macro_precision": 0.6591,
+      "macro_recall": 0.5576,
+      "singleton_acc": 0.4324
+    },
+    {
+      "tau_india": 0.5,
+      "tau_us": 0.7,
+      "macro_f05": 0.6199,
+      "macro_precision": 0.6752,
+      "macro_recall": 0.5582,
+      "singleton_acc": 0.471
+    },
+    {
+      "tau_india": 0.5,
+      "tau_us": 0.75,
+      "macro_f05": 0.6195,
+      "macro_precision": 0.6807,
+      "macro_recall": 0.5467,
+      "singleton_acc": 0.5019
+    },
+    {
+      "tau_india": 0.55,
+      "tau_us": 0.2,
+      "macro_f05": 0.4861,
+      "macro_precision": 0.4991,
+      "macro_recall": 0.5723,
+      "singleton_acc": 0.1969
+    },
+    {
+      "tau_india": 0.55,
+      "tau_us": 0.25,
+      "macro_f05": 0.4871,
+      "macro_precision": 0.5006,
+      "macro_recall": 0.5684,
+      "singleton_acc": 0.1969
+    },
+    {
+      "tau_india": 0.55,
+      "tau_us": 0.3,
+      "macro_f05": 0.475,
+      "macro_precision": 0.4904,
+      "macro_recall": 0.5459,
+      "singleton_acc": 0.1969
+    },
+    {
+      "tau_india": 0.55,
+      "tau_us": 0.35,
+      "macro_f05": 0.5786,
+      "macro_precision": 0.6189,
+      "macro_recall": 0.5543,
+      "singleton_acc": 0.3591
+    },
+    {
+      "tau_india": 0.55,
+      "tau_us": 0.4,
+      "macro_f05": 0.5896,
+      "macro_precision": 0.6329,
+      "macro_recall": 0.5557,
+      "singleton_acc": 0.3861
+    },
+    {
+      "tau_india": 0.55,
+      "tau_us": 0.45,
+      "macro_f05": 0.5962,
+      "macro_precision": 0.6414,
+      "macro_recall": 0.5565,
+      "singleton_acc": 0.4015
+    },
+    {
+      "tau_india": 0.55,
+      "tau_us": 0.5,
+      "macro_f05": 0.6016,
+      "macro_precision": 0.6489,
+      "macro_recall": 0.557,
+      "singleton_acc": 0.4131
+    },
+    {
+      "tau_india": 0.55,
+      "tau_us": 0.55,
+      "macro_f05": 0.6072,
+      "macro_precision": 0.6563,
+      "macro_recall": 0.5579,
+      "singleton_acc": 0.4324
+    },
+    {
+      "tau_india": 0.55,
+      "tau_us": 0.6,
+      "macro_f05": 0.6114,
+      "macro_precision": 0.6618,
+      "macro_recall": 0.5586,
+      "singleton_acc": 0.4517
+    },
+    {
+      "tau_india": 0.55,
+      "tau_us": 0.65,
+      "macro_f05": 0.6177,
+      "macro_precision": 0.6707,
+      "macro_recall": 0.5587,
+      "singleton_acc": 0.4633
+    },
+    {
+      "tau_india": 0.55,
+      "tau_us": 0.7,
+      "macro_f05": 0.6286,
+      "macro_precision": 0.6868,
+      "macro_recall": 0.5593,
+      "singleton_acc": 0.5019
+    },
+    {
+      "tau_india": 0.55,
+      "tau_us": 0.75,
+      "macro_f05": 0.6282,
+      "macro_precision": 0.6923,
+      "macro_recall": 0.5478,
+      "singleton_acc": 0.5328
+    },
+    {
+      "tau_india": 0.6,
+      "tau_us": 0.2,
+      "macro_f05": 0.4964,
+      "macro_precision": 0.5136,
+      "macro_recall": 0.5726,
+      "singleton_acc": 0.2239
+    },
+    {
+      "tau_india": 0.6,
+      "tau_us": 0.25,
+      "macro_f05": 0.4973,
+      "macro_precision": 0.5152,
+      "macro_recall": 0.5687,
+      "singleton_acc": 0.2239
+    },
+    {
+      "tau_india": 0.6,
+      "tau_us": 0.3,
+      "macro_f05": 0.4852,
+      "macro_precision": 0.505,
+      "macro_recall": 0.5463,
+      "singleton_acc": 0.2239
+    },
+    {
+      "tau_india": 0.6,
+      "tau_us": 0.35,
+      "macro_f05": 0.5889,
+      "macro_precision": 0.6335,
+      "macro_recall": 0.5547,
+      "singleton_acc": 0.3861
+    },
+    {
+      "tau_india": 0.6,
+      "tau_us": 0.4,
+      "macro_f05": 0.5999,
+      "macro_precision": 0.6475,
+      "macro_recall": 0.5561,
+      "singleton_acc": 0.4131
+    },
+    {
+      "tau_india": 0.6,
+      "tau_us": 0.45,
+      "macro_f05": 0.6065,
+      "macro_precision": 0.656,
+      "macro_recall": 0.5569,
+      "singleton_acc": 0.4286
+    },
+    {
+      "tau_india": 0.6,
+      "tau_us": 0.5,
+      "macro_f05": 0.6119,
+      "macro_precision": 0.6635,
+      "macro_recall": 0.5574,
+      "singleton_acc": 0.4402
+    },
+    {
+      "tau_india": 0.6,
+      "tau_us": 0.55,
+      "macro_f05": 0.6174,
+      "macro_precision": 0.6709,
+      "macro_recall": 0.5582,
+      "singleton_acc": 0.4595
+    },
+    {
+      "tau_india": 0.6,
+      "tau_us": 0.6,
+      "macro_f05": 0.6216,
+      "macro_precision": 0.6764,
+      "macro_recall": 0.559,
+      "singleton_acc": 0.4788
+    },
+    {
+      "tau_india": 0.6,
+      "tau_us": 0.65,
+      "macro_f05": 0.628,
+      "macro_precision": 0.6853,
+      "macro_recall": 0.559,
+      "singleton_acc": 0.4903
+    },
+    {
+      "tau_india": 0.6,
+      "tau_us": 0.7,
+      "macro_f05": 0.6388,
+      "macro_precision": 0.7014,
+      "macro_recall": 0.5597,
+      "singleton_acc": 0.529
+    },
+    {
+      "tau_india": 0.6,
+      "tau_us": 0.75,
+      "macro_f05": 0.6384,
+      "macro_precision": 0.7068,
+      "macro_recall": 0.5481,
+      "singleton_acc": 0.5598
+    },
+    {
+      "tau_india": 0.65,
+      "tau_us": 0.2,
+      "macro_f05": 0.5046,
+      "macro_precision": 0.5248,
+      "macro_recall": 0.5733,
+      "singleton_acc": 0.2471
+    },
+    {
+      "tau_india": 0.65,
+      "tau_us": 0.25,
+      "macro_f05": 0.5056,
+      "macro_precision": 0.5264,
+      "macro_recall": 0.5695,
+      "singleton_acc": 0.2471
+    },
+    {
+      "tau_india": 0.65,
+      "tau_us": 0.3,
+      "macro_f05": 0.4935,
+      "macro_precision": 0.5162,
+      "macro_recall": 0.547,
+      "singleton_acc": 0.2471
+    },
+    {
+      "tau_india": 0.65,
+      "tau_us": 0.35,
+      "macro_f05": 0.5972,
+      "macro_precision": 0.6447,
+      "macro_recall": 0.5554,
+      "singleton_acc": 0.4093
+    },
+    {
+      "tau_india": 0.65,
+      "tau_us": 0.4,
+      "macro_f05": 0.6082,
+      "macro_precision": 0.6587,
+      "macro_recall": 0.5568,
+      "singleton_acc": 0.4363
+    },
+    {
+      "tau_india": 0.65,
+      "tau_us": 0.45,
+      "macro_f05": 0.6147,
+      "macro_precision": 0.6672,
+      "macro_recall": 0.5576,
+      "singleton_acc": 0.4517
+    },
+    {
+      "tau_india": 0.65,
+      "tau_us": 0.5,
+      "macro_f05": 0.6202,
+      "macro_precision": 0.6747,
+      "macro_recall": 0.5581,
+      "singleton_acc": 0.4633
+    },
+    {
+      "tau_india": 0.65,
+      "tau_us": 0.55,
+      "macro_f05": 0.6257,
+      "macro_precision": 0.682,
+      "macro_recall": 0.559,
+      "singleton_acc": 0.4826
+    },
+    {
+      "tau_india": 0.65,
+      "tau_us": 0.6,
+      "macro_f05": 0.6299,
+      "macro_precision": 0.6876,
+      "macro_recall": 0.5597,
+      "singleton_acc": 0.5019
+    },
+    {
+      "tau_india": 0.65,
+      "tau_us": 0.65,
+      "macro_f05": 0.6362,
+      "macro_precision": 0.6965,
+      "macro_recall": 0.5597,
+      "singleton_acc": 0.5135
+    },
+    {
+      "tau_india": 0.65,
+      "tau_us": 0.7,
+      "macro_f05": 0.6471,
+      "macro_precision": 0.7126,
+      "macro_recall": 0.5604,
+      "singleton_acc": 0.5521
+    },
+    {
+      "tau_india": 0.65,
+      "tau_us": 0.75,
+      "macro_f05": 0.6467,
+      "macro_precision": 0.718,
+      "macro_recall": 0.5488,
+      "singleton_acc": 0.583
+    },
+    {
+      "tau_india": 0.7,
+      "tau_us": 0.2,
+      "macro_f05": 0.5163,
+      "macro_precision": 0.5408,
+      "macro_recall": 0.5736,
+      "singleton_acc": 0.2896
+    },
+    {
+      "tau_india": 0.7,
+      "tau_us": 0.25,
+      "macro_f05": 0.5173,
+      "macro_precision": 0.5424,
+      "macro_recall": 0.5697,
+      "singleton_acc": 0.2896
+    },
+    {
+      "tau_india": 0.7,
+      "tau_us": 0.3,
+      "macro_f05": 0.5052,
+      "macro_precision": 0.5321,
+      "macro_recall": 0.5473,
+      "singleton_acc": 0.2896
+    },
+    {
+      "tau_india": 0.7,
+      "tau_us": 0.35,
+      "macro_f05": 0.6088,
+      "macro_precision": 0.6607,
+      "macro_recall": 0.5557,
+      "singleton_acc": 0.4517
+    },
+    {
+      "tau_india": 0.7,
+      "tau_us": 0.4,
+      "macro_f05": 0.6198,
+      "macro_precision": 0.6746,
+      "macro_recall": 0.5571,
+      "singleton_acc": 0.4788
+    },
+    {
+      "tau_india": 0.7,
+      "tau_us": 0.45,
+      "macro_f05": 0.6264,
+      "macro_precision": 0.6832,
+      "macro_recall": 0.5579,
+      "singleton_acc": 0.4942
+    },
+    {
+      "tau_india": 0.7,
+      "tau_us": 0.5,
+      "macro_f05": 0.6318,
+      "macro_precision": 0.6907,
+      "macro_recall": 0.5584,
+      "singleton_acc": 0.5058
+    },
+    {
+      "tau_india": 0.7,
+      "tau_us": 0.55,
+      "macro_f05": 0.6374,
+      "macro_precision": 0.698,
+      "macro_recall": 0.5592,
+      "singleton_acc": 0.5251
+    },
+    {
+      "tau_india": 0.7,
+      "tau_us": 0.6,
+      "macro_f05": 0.6416,
+      "macro_precision": 0.7036,
+      "macro_recall": 0.56,
+      "singleton_acc": 0.5444
+    },
+    {
+      "tau_india": 0.7,
+      "tau_us": 0.65,
+      "macro_f05": 0.6479,
+      "macro_precision": 0.7125,
+      "macro_recall": 0.56,
+      "singleton_acc": 0.556
+    },
+    {
+      "tau_india": 0.7,
+      "tau_us": 0.7,
+      "macro_f05": 0.6588,
+      "macro_precision": 0.7286,
+      "macro_recall": 0.5607,
+      "singleton_acc": 0.5946
+    },
+    {
+      "tau_india": 0.7,
+      "tau_us": 0.75,
+      "macro_f05": 0.6584,
+      "macro_precision": 0.734,
+      "macro_recall": 0.5491,
+      "singleton_acc": 0.6255
+    },
+    {
+      "tau_india": 0.75,
+      "tau_us": 0.2,
+      "macro_f05": 0.5161,
+      "macro_precision": 0.5487,
+      "macro_recall": 0.5579,
+      "singleton_acc": 0.3398
+    },
+    {
+      "tau_india": 0.75,
+      "tau_us": 0.25,
+      "macro_f05": 0.5171,
+      "macro_precision": 0.5503,
+      "macro_recall": 0.554,
+      "singleton_acc": 0.3398
+    },
+    {
+      "tau_india": 0.75,
+      "tau_us": 0.3,
+      "macro_f05": 0.505,
+      "macro_precision": 0.54,
+      "macro_recall": 0.5316,
+      "singleton_acc": 0.3398
+    },
+    {
+      "tau_india": 0.75,
+      "tau_us": 0.35,
+      "macro_f05": 0.6086,
+      "macro_precision": 0.6686,
+      "macro_recall": 0.54,
+      "singleton_acc": 0.5019
+    },
+    {
+      "tau_india": 0.75,
+      "tau_us": 0.4,
+      "macro_f05": 0.6196,
+      "macro_precision": 0.6826,
+      "macro_recall": 0.5414,
+      "singleton_acc": 0.529
+    },
+    {
+      "tau_india": 0.75,
+      "tau_us": 0.45,
+      "macro_f05": 0.6262,
+      "macro_precision": 0.6911,
+      "macro_recall": 0.5422,
+      "singleton_acc": 0.5444
+    },
+    {
+      "tau_india": 0.75,
+      "tau_us": 0.5,
+      "macro_f05": 0.6316,
+      "macro_precision": 0.6986,
+      "macro_recall": 0.5427,
+      "singleton_acc": 0.556
+    },
+    {
+      "tau_india": 0.75,
+      "tau_us": 0.55,
+      "macro_f05": 0.6372,
+      "macro_precision": 0.7059,
+      "macro_recall": 0.5435,
+      "singleton_acc": 0.5753
+    },
+    {
+      "tau_india": 0.75,
+      "tau_us": 0.6,
+      "macro_f05": 0.6414,
+      "macro_precision": 0.7115,
+      "macro_recall": 0.5442,
+      "singleton_acc": 0.5946
+    },
+    {
+      "tau_india": 0.75,
+      "tau_us": 0.65,
+      "macro_f05": 0.6477,
+      "macro_precision": 0.7204,
+      "macro_recall": 0.5443,
+      "singleton_acc": 0.6062
+    },
+    {
+      "tau_india": 0.75,
+      "tau_us": 0.7,
+      "macro_f05": 0.6586,
+      "macro_precision": 0.7365,
+      "macro_recall": 0.5449,
+      "singleton_acc": 0.6448
+    },
+    {
+      "tau_india": 0.75,
+      "tau_us": 0.75,
+      "macro_f05": 0.6582,
+      "macro_precision": 0.7419,
+      "macro_recall": 0.5334,
+      "singleton_acc": 0.6757
+    }
+  ],
+  "feature_names": [
+    "name_lev",
+    "name_clean_lev",
+    "name_token_sort",
+    "name_token_set",
+    "name_char_3gram_jaccard",
+    "name_char_4gram_jaccard",
+    "name_consonant_skeleton_lev",
+    "name_len_diff",
+    "name_token_overlap_ratio",
+    "exact_name",
+    "addr_lev",
+    "addr_token_jaccard",
+    "addr_token_overlap",
+    "addr_char_3gram_jaccard",
+    "addr_len_diff",
+    "exact_address",
+    "addr_nonempty_both",
+    "addr_missing_s1",
+    "addr_missing_cand",
+    "address_conflict",
+    "postal_code_exact",
+    "numeric_token_overlap",
+    "numeric_token_conflict",
+    "numeric_count_diff",
+    "exact_name_and_exact_address",
+    "exact_address_same_country",
+    "same_name_missing_address",
+    "different_name_exact_address",
+    "similar_name_similar_address",
+    "similar_name_address_conflict",
+    "different_name_different_address",
+    "country_match",
+    "name_soundex_match",
+    "name_rare_token_overlap",
+    "name_weighted_jaccard",
+    "max_token_idf",
+    "core_brand_exact",
+    "core_brand_lev",
+    "postal_code_conflict",
+    "pincode_numeric_conflict"
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "macro_f05": 0.6526,
+  "macro_precision": 0.7519,
+  "macro_recall": 0.5106,
+  "candidate_recall": 0.5721,
+  "total_tp": 8471,
+  "total_fp": 774,
+  "total_fn": 8673,
+  "false_merges": 774,
+  "missed_matches": 8673,
+  "total_entities": 5000,
+  "total_singletons": 259,
+  "singleton_correct": 210,
+  "singleton_accuracy": 0.8108,
+  "country_metrics": {
+    "India": {
+      "macro_f05": 0.6029,
+      "macro_precision": 0.7028,
+      "macro_recall": 0.4654,
+      "count": 2500
+    },
+    "United States": {
+      "macro_f05": 0.7023,
+      "macro_precision": 0.8011,
+      "macro_recall": 0.5558,
+      "count": 2500
+    }
+  },
+  "optimal_threshold": 0.75,
+  "threshold_sweep": [
+    {
+      "threshold": 0.2,
+      "macro_f05": 0.6341,
+      "macro_precision": 0.6961,
+      "macro_recall": 0.5615,
+      "singleton_acc": 0.5097,
+      "total_tp": 9668,
+      "total_fp": 2783
+    },
+    {
+      "threshold": 0.25,
+      "macro_f05": 0.6395,
+      "macro_precision": 0.704,
+      "macro_recall": 0.5605,
+      "singleton_acc": 0.5405,
+      "total_tp": 9621,
+      "total_fp": 2575
+    },
+    {
+      "threshold": 0.3,
+      "macro_f05": 0.6458,
+      "macro_precision": 0.7131,
+      "macro_recall": 0.5596,
+      "singleton_acc": 0.5907,
+      "total_tp": 9558,
+      "total_fp": 2373
+    },
+    {
+      "threshold": 0.35,
+      "macro_f05": 0.6477,
+      "macro_precision": 0.7179,
+      "macro_recall": 0.5552,
+      "singleton_acc": 0.6023,
+      "total_tp": 9459,
+      "total_fp": 2219
+    },
+    {
+      "threshold": 0.4,
+      "macro_f05": 0.6253,
+      "macro_precision": 0.7016,
+      "macro_recall": 0.5232,
+      "singleton_acc": 0.61,
+      "total_tp": 8869,
+      "total_fp": 2090
+    },
+    {
+      "threshold": 0.45,
+      "macro_f05": 0.6282,
+      "macro_precision": 0.7056,
+      "macro_recall": 0.5231,
+      "singleton_acc": 0.6255,
+      "total_tp": 8857,
+      "total_fp": 1990
+    },
+    {
+      "threshold": 0.5,
+      "macro_f05": 0.6311,
+      "macro_precision": 0.7105,
+      "macro_recall": 0.5229,
+      "singleton_acc": 0.6486,
+      "total_tp": 8833,
+      "total_fp": 1869
+    },
+    {
+      "threshold": 0.55,
+      "macro_f05": 0.6447,
+      "macro_precision": 0.7382,
+      "macro_recall": 0.515,
+      "singleton_acc": 0.7336,
+      "total_tp": 8619,
+      "total_fp": 1095
+    },
+    {
+      "threshold": 0.6,
+      "macro_f05": 0.6461,
+      "macro_precision": 0.7409,
+      "macro_recall": 0.5139,
+      "singleton_acc": 0.7413,
+      "total_tp": 8589,
+      "total_fp": 1029
+    },
+    {
+      "threshold": 0.65,
+      "macro_f05": 0.6491,
+      "macro_precision": 0.7455,
+      "macro_recall": 0.5138,
+      "singleton_acc": 0.7761,
+      "total_tp": 8556,
+      "total_fp": 928
+    },
+    {
+      "threshold": 0.7,
+      "macro_f05": 0.6507,
+      "macro_precision": 0.7484,
+      "macro_recall": 0.5126,
+      "singleton_acc": 0.7838,
+      "total_tp": 8525,
+      "total_fp": 854
+    },
+    {
+      "threshold": 0.75,
+      "macro_f05": 0.6526,
+      "macro_precision": 0.7519,
+      "macro_recall": 0.5106,
+      "singleton_acc": 0.8108,
+      "total_tp": 8471,
+      "total_fp": 774
+    }
+  ],
+  "feature_names": [
+    "name_lev",
+    "name_clean_lev",
+    "name_token_sort",
+    "name_token_set",
+    "name_char_3gram_jaccard",
+    "name_char_4gram_jaccard",
+    "name_consonant_skeleton_lev",
+    "name_len_diff",
+    "name_token_overlap_ratio",
+    "exact_name",
+    "addr_lev",
+    "addr_token_jaccard",
+    "addr_token_overlap",
+    "addr_char_3gram_jaccard",
+    "addr_len_diff",
+    "exact_address",
+    "addr_nonempty_both",
+    "addr_missing_s1",
+    "addr_missing_cand",
+    "address_conflict",
+    "postal_code_exact",
+    "numeric_token_overlap",
+    "numeric_token_conflict",
+    "numeric_count_diff",
+    "exact_name_and_exact_address",
+    "exact_address_same_country",
+    "same_name_missing_address",
+    "different_name_exact_address",
+    "similar_name_similar_address",
+    "similar_name_address_conflict",
+    "different_name_different_address",
+    "country_match"
+  ]
+}

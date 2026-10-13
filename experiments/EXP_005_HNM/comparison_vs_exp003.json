@@ -1,0 +1,107 @@
+{
+  "exp3_baseline": {
+    "macro_f05": 0.698,
+    "macro_precision": 0.7825,
+    "macro_recall": 0.576,
+    "candidate_recall": 0.6179,
+    "total_tp": 9696,
+    "total_fp": 1301,
+    "total_fn": 7448,
+    "false_merges": 1301,
+    "missed_matches": 7448,
+    "total_entities": 5000,
+    "total_singletons": 259,
+    "singleton_correct": 186,
+    "singleton_accuracy": 0.7181,
+    "country_metrics": {
+      "india": {
+        "macro_f05": 0.6553,
+        "macro_precision": 0.7468,
+        "macro_recall": 0.5277,
+        "count": 2500
+      },
+      "us": {
+        "macro_f05": 0.7407,
+        "macro_precision": 0.8182,
+        "macro_recall": 0.6242,
+        "count": 2500
+      }
+    },
+    "macro_f1": 0.6635553919764446,
+    "total_matches_predicted": 10997
+  },
+  "enhanced_model": {
+    "macro_f05": 0.6621,
+    "macro_precision": 0.7367,
+    "macro_recall": 0.5561,
+    "candidate_recall": 0.6179,
+    "total_tp": 9418,
+    "total_fp": 2185,
+    "total_fn": 7726,
+    "false_merges": 2185,
+    "missed_matches": 7726,
+    "total_entities": 5000,
+    "total_singletons": 259,
+    "singleton_correct": 162,
+    "singleton_accuracy": 0.6255,
+    "country_metrics": {
+      "india": {
+        "macro_f05": 0.6149,
+        "macro_precision": 0.6836,
+        "macro_recall": 0.5226,
+        "count": 2500
+      },
+      "us": {
+        "macro_f05": 0.7094,
+        "macro_precision": 0.7898,
+        "macro_recall": 0.5896,
+        "count": 2500
+      }
+    },
+    "macro_f1": 0.6337853805693069,
+    "total_matches_predicted": 11603,
+    "tau_india": 0.75,
+    "tau_us": 0.75,
+    "hard_negative_stats": {
+      "queries_examined": 30000,
+      "queries_with_hard_negatives": 4953,
+      "total_wrong_candidates_examined": 1883079,
+      "hard_negatives_mined": 15176,
+      "duplicate_negatives_removed": 8722,
+      "hard_negatives_retained": 6454,
+      "score_distribution": {
+        "count": 15176,
+        "min": 0.25002601742744446,
+        "p25": 0.3540564477443695,
+        "median": 0.5681316256523132,
+        "p75": 0.79259192943573,
+        "max": 0.9991493821144104,
+        "mean": 0.580630362033844,
+        "top_5": [
+          0.9991,
+          0.9989,
+          0.9987,
+          0.9986,
+          0.9986
+        ]
+      },
+      "elapsed_seconds": 89.2,
+      "dataset_augmentation": {
+        "initial_training_pairs": 343857,
+        "initial_positives": 103907,
+        "initial_negatives": 239950,
+        "hard_negatives_added": 6454,
+        "avg_hard_neg_per_positive": 0.0621,
+        "final_training_pairs": 350311,
+        "final_positives": 103907,
+        "final_negatives": 246404
+      }
+    }
+  },
+  "delta": {
+    "delta_f05": -0.03589999999999993,
+    "delta_precision": -0.04579999999999995,
+    "delta_recall": -0.019899999999999918,
+    "delta_f1": -0.029770011407137753
+  }
+}
