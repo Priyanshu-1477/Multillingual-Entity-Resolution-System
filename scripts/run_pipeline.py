@@ -566,17 +566,8 @@ def run_full_inference(dataset_dir: str = DEFAULT_DATASET_DIR, output_dir: str =
     out_match = os.path.join(output_dir, "matching_results.tsv")
     out_cand = os.path.join(output_dir, "candidate_pairs.tsv")
 
-    # Safe backup of previous submission files
-    if os.path.exists(out_match):
-        bak_m = os.path.join(output_dir, "matching_results_prev_bak.tsv")
-        import shutil
-        shutil.copyfile(out_match, bak_m)
-        log(f"Safely archived existing matches to {bak_m}")
-    if os.path.exists(out_cand):
-        bak_c = os.path.join(output_dir, "candidate_pairs_prev_bak.tsv")
-        import shutil
-        shutil.copyfile(out_cand, bak_c)
-        log(f"Safely archived existing candidates to {bak_c}")
+    # Ready output streams
+    log(f"Writing predictions to {out_match} and candidates to {out_cand}")
 
     fh_match = open(out_match, "w", encoding="utf-8")
     fh_cand = open(out_cand, "w", encoding="utf-8")
